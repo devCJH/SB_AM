@@ -19,6 +19,7 @@ public class MemberService {
 	public int doJoin(String loginId, String loginPw, String name, String nickname, String cellphoneNum,
 			String email) {
 		
+		// 로그인아이디 중복체크
 		Member existsMember = getMemberByLoginId(loginId);
 		
 		if(existsMember != null) {
