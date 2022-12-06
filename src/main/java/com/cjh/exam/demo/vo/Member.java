@@ -15,11 +15,11 @@ public class Member {
 	private LocalDateTime updateDate;
 	private String loginId;
 	private String loginPw;
-	private String authLevel;
+	private int authLevel;
 	private String name;
 	private String nickname;
 	private String cellphoneNum;
 	private String email;
-	private String delStatus;
+	private boolean delStatus;
 	private LocalDateTime delDate;
 }
