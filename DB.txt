@@ -83,3 +83,9 @@ SELECT * FROM article
 SELECT * FROM `member`
 
 SELECT LAST_INSERT_ID();
+
+ALTER TABLE article ADD COLUMN memberId INT UNSIGNED NOT NULL AFTER updateDate;
+
+UPDATE article
+SET memberId = 2
+WHERE memberId = 0;
