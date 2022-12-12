@@ -20,7 +20,7 @@
 					<c:forEach var="article" items="${articles}">
 						<tr>
 							<td>${article.id}</td>
-							<td>${article.regDate}</td>
+							<td>${article.regDate.substring(2,16)}</td>
 							<td><a href="../article/detail?id=${article.id}">${article.title}</a></td>
 							<td>${article.memberId}</td>
 						</tr>
