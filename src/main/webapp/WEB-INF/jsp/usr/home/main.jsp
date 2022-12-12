@@ -3,9 +3,23 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>메인</title>
+<title>MAIN</title>
 </head>
 <body>
-	<div>메인페이지</div>
+	<h1>Main Page</h1>
+	
+	<header>
+		<a href="#">로고</a>
+		
+		<ul>
+			<li><a href="/">HOME</a></li>
+			<li><a href="/usr/article/list">LIST</a></li>
+		</ul>
+	</header>
+
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quas rem magni autem labore eum quam officiis
+		provident nam in corrupti praesentium aliquam ratione non nemo saepe harum quaerat consectetur?</div>
+		
+	
 </body>
 </html>
